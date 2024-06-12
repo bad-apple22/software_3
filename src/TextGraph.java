@@ -94,6 +94,7 @@ public class TextGraph {
             String word2 = words[i + 1];
             if (!word1.isEmpty() && !word2.isEmpty()) {
                 graph.putIfAbsent(word1, new HashMap<>());
+                graph.putIfAbsent(word2, new HashMap<>());
                 Map<String, Integer> edges = graph.get(word1);
                 edges.put(word2, edges.getOrDefault(word2, 0) + 1);
             }
@@ -135,6 +136,7 @@ public class TextGraph {
     }
     //查询桥接词
     private String queryBridgeWords(String word1, String word2) {
+
         if (!graph.containsKey(word1) || !graph.containsKey(word2)) {
             return "No word1 or word2 in the graph!";
         }
@@ -142,7 +144,7 @@ public class TextGraph {
         List<String> bridgeWords = new ArrayList<>();
         Map<String, Integer> edges1 = graph.get(word1);
         for (String intermediate : edges1.keySet()) {
-            if (graph.containsKey(intermediate) && graph.get(intermediate).containsKey(word2)) {
+            if (!intermediate.equals(word1) && !intermediate.equals(word2) &&graph.containsKey(intermediate) && graph.get(intermediate).containsKey(word2)) {
                 bridgeWords.add(intermediate);
             }
         }
@@ -159,6 +161,7 @@ public class TextGraph {
                     result.append(", ");
                 }
             }
+            System.out.println("无效的选择，请重试。");
             result.append(".");
             return result.toString();
         }
