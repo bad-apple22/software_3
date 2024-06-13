@@ -1,0 +1,35 @@
+
+	java:S112—"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8™©‰2J$750f9db5-048d-4dff-af3b-8f94a7cd877d
+‘
+java:S1192†"MDefine a constant instead of duplicating this literal "\" [label=\"" 3 times.(ú¬ñü8š©‰2J$996e85dd-6d3b-4944-b0c4-7084d4d99b05
+
+java:S1192†"IDefine a constant instead of duplicating this literal "\" -> \"" 3 times.(ú¬ñü8š©‰2J$25594caf-97db-4fdf-bb3c-7c0b435d2468
+m	java:S106"+Replace this use of System.out by a logger.(şáã‘8 ©‰2J$fc1b7996-118e-4dac-b90a-5a2657a2917d
+r	java:S106"+Replace this use of System.out by a logger.(ü®îüùÿÿÿÿ8 ©‰2J$7272d2e4-65ef-4110-a431-1177f01d7031
+r	java:S106"+Replace this use of System.err by a logger.(©Í£ôüÿÿÿÿ8 ©‰2J$d3c3db6c-a5d6-4e30-a5b7-e2c40d622c4b
+l	java:S106"+Replace this use of System.out by a logger.(¤Ûúp8¡©‰2J$79f9b560-4d53-4072-bb64-bf31f70eb85e
+„
+java:S1075#"ARefactor your code to get this URI from a customizable parameter.(ñ¹Ë³8¡©‰2J$59a8520a-1f02-4e66-aac8-8778dda6b463
+r	java:S106+"+Replace this use of System.out by a logger.(§Ú×»ÿÿÿÿÿ8¡©‰2J$193e7076-17c1-4fd3-859c-376081b29320
+r	java:S106."+Replace this use of System.out by a logger.(£à²µüÿÿÿÿ8¢©‰2J$f2217f8a-5c5e-4ff0-87cb-19222ec2b4c2
+m	java:S1061"+Replace this use of System.out by a logger.(ãÛÆî8¢©‰2J$29ae8577-1fac-478a-b090-39e29bdc09a8
+r	java:S1063"+Replace this use of System.out by a logger.(İõ›áıÿÿÿÿ8¢©‰2J$6ec91c0b-a006-4b7c-bd66-3de0e525210c
+r	java:S1066"+Replace this use of System.out by a logger.(§Ú×»ÿÿÿÿÿ8¢©‰2J$8f30cd08-ee40-4edb-8cec-d200d56765ab
+r	java:S1069"+Replace this use of System.out by a logger.(İ†¦˜ûÿÿÿÿ8¢©‰2J$86f3fad1-95d2-4aaf-9d36-69592a2e2099
+o
+java:S1602=",Remove useless curly braces around statement(ó˜·Ç8¤©‰2J$b059f198-9b4e-4806-9c2c-75f1696de4b9
+‹
+java:S1612="HReplace this lambda with method reference 'randomWalk::startRandomWalk'.(ó˜·Ç8¤©‰2J$662dc81f-148d-4265-8682-d3b488aa31d4
+m	java:S106A"+Replace this use of System.out by a logger.(¶Ãæš8¤©‰2J$a74c47cb-d822-4aec-8f15-1a3f3e7daccc
+¡
+java:S2142F"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8¤©‰2J$0ed09cf3-a5c3-487d-a5d3-c65bd8adb6d5
+m	java:S106J"+Replace this use of System.out by a logger.(ç‰‰·8¥©‰2J$877d3b64-bde2-41b1-b052-239e2b846740
+r	java:S106P"+Replace this use of System.out by a logger.(‹ğé‹ùÿÿÿÿ8¥©‰2J$bbbde25e-21db-4892-9250-baf1efc50d02
+r	java:S106q"+Replace this use of System.out by a logger.(€Çö¿ıÿÿÿÿ8¨©‰2J$fe4dc98c-01e6-4d74-90c0-b061d86a0f3c
+m	java:S106s"+Replace this use of System.out by a logger.(Á¢¸†8¨©‰2J$b5a8a33f-c090-4d1b-b758-a30f9c3abc32
+r	java:S106u"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8©©‰2J$738c41e3-7b4d-47d9-95e5-3296e27f8c70
+b
+java:S2119Ê"Save and re-use this "Random".(àòŞİ8°©‰2J$123846ef-3c50-4e69-a7f1-1ca5494ac3df
+…
+java:S1075“"ARefactor your code to get this URI from a customizable parameter.(ÚÑÁ·8µ©‰2J$90b49ab6-9d7f-4325-bac1-4c15357cdbfc
+s	java:S106·"+Replace this use of System.out by a logger.(Ì·”Ïûÿÿÿÿ8¸©‰2J$8b8bad88-ef59-484a-858c-5846edd3e2b5

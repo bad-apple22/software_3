@@ -10,44 +10,28 @@ import java.util.Map;
 public class QueryBridgeWordsTest {
 
     private Map<String, Map<String, Integer>> graph;
-
     @Before
     public void setUp() {
         graph = new HashMap<>();
     }
 
     private void addEdge(String from, String to) {
-
         // 添加节点a和它的邻接表
         if (!graph.containsKey(from)) {
             graph.put(from, new HashMap<>());
         }
-
         graph.get(from).put(to, 1); // 添加边a -> b
-
         // 添加节点b和它的邻接表
         if (!graph.containsKey(to)) {
             graph.put(to, new HashMap<>());
         }
-
     }
 
-    private void showDirectedGraph() {
-        for (Map.Entry<String, Map<String, Integer>> entry : graph.entrySet()) {
-            System.out.print(entry.getKey() + " -> ");
-            for (Map.Entry<String, Integer> edge : entry.getValue().entrySet()) {
-                System.out.print(edge.getKey() + "(" + edge.getValue() + ") ");
-            }
-            System.out.println();
-        }
-    }
 
     @Test
     public void testCase1() {
         addEdge("A", "B");
         addEdge("B", "C");
-        showDirectedGraph(); // Print graph to verify its structure
-
         String result = queryBridgeWords(graph, "A", "C");
         assertEquals("The bridge word from A to C is: B.", result);
     }
@@ -93,7 +77,6 @@ public class QueryBridgeWordsTest {
     @Test
     public void testCase7() {
         addEdge("A", "A");
-        showDirectedGraph(); // Print graph to verify its structure
         String result = queryBridgeWords(graph, "A", "A");
         assertEquals("No bridge words from A to A!", result);
     }
@@ -140,7 +123,6 @@ public class QueryBridgeWordsTest {
                     result.append(", ");
                 }
             }
-            System.out.println("无效的选择，请重试。");
             result.append(".");
             return result.toString();
         }

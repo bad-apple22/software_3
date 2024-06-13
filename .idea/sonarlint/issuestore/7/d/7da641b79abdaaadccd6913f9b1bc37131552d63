@@ -1,0 +1,12 @@
+
+‰
+java:S3824"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(€©„¦üÿÿÿÿJ$33efc5be-d0e4-4a3b-acc6-11a639001929
+‰
+java:S3824"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(†¹®ÜşÿÿÿÿJ$ae6d4de0-02bf-4b35-9210-bf26b5cbe021
+²
+java:S1192'"qDefine a constant instead of duplicating this literal "èµ·å§‹å•è¯æˆ–ç»“æŸå•è¯ä¸å­˜åœ¨äºå›¾ä¸­ã€‚" 3 times.(ÅØøëúÿÿÿÿJ$12b15b66-37e2-466a-b99f-cb2370c02c29
+	java:S125†"<This block of commented-out lines of code should be removed.(ÚÑÁ·8ƒ¬Œ2J$dbdf0e44-3d18-41cc-86e9-16a665153b5b
+x
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8†¬Œ2J$23579713-319f-4c1f-b1da-df1d4455cb3c
+l
+java:S5960'"+Remove this assertion from production code.(ÅØøëúÿÿÿÿJ$b5fb3aee-fcbd-4f82-8f81-797c457fd656
