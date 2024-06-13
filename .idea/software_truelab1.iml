@@ -12,5 +12,6 @@
     <orderEntry type="library" name="junit-4.12" level="project" />
     <orderEntry type="library" name="graphviz-java-0.18.1 (2)" level="project" />
     <orderEntry type="library" name="gs-core-2.0 (2)" level="project" />
+    <orderEntry type="library" name="findsecbugs-plugin-1.12.0" level="project" />
   </component>
 </module>

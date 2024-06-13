@@ -1,13 +1,9 @@
 
 j
-java:S3824"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(€©„¦üÿÿÿÿ8Üƒ‡2
+java:S3824"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(†¹®Üşÿÿÿÿ8‡á2
 j
-java:S3824"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(†¹®Üşÿÿÿÿ8Üƒ‡2
+java:S3824"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(€©„¦üÿÿÿÿ8‡á2
 }
-java:S1192D"`Define a constant instead of duplicating this literal "No word1 or word2 in the graph!" 5 times.(¶‰è…8Üƒ‡2
-L	java:S106%"+Replace this use of System.out by a logger.(€Çö¿ıÿÿÿÿ8Üƒ‡2
-G	java:S106'"+Replace this use of System.out by a logger.(Á¢¸†8Üƒ‡2
-L	java:S106)"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8Üƒ‡2
-M	java:S106"+Replace this use of System.out by a logger.(‹ğé‹ùÿÿÿÿ8ìƒ‡2
+java:S11924"`Define a constant instead of duplicating this literal "No word1 or word2 in the graph!" 5 times.(¶‰è…8‡á2
 H
-java:S59604"+Remove this assertion from production code.(Ò¥¶8ìƒ‡2
+java:S5960$"+Remove this assertion from production code.(Ò¥¶8‡á2

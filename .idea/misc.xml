@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-<<<<<<< HEAD
-  <component name="ProjectRootManager" version="2" project-jdk-name="22" project-jdk-type="JavaSDK">
-=======
   <component name="ProjectRootManager" version="2" languageLevel="JDK_22" project-jdk-name="22" project-jdk-type="JavaSDK">
->>>>>>> Lab3b
-    <output url="file://$PROJECT_DIR$/../software_truelbb1/out" />
+    <output url="file://$PROJECT_DIR$/../software_truelab1/out" />
   </component>
 </project>
