@@ -1,9 +1,14 @@
-import java.io.*;
+//import java.io.*;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.*;
 
 
 public class TextGraph {
-    private Map<String, Map<String, Integer>> graph = new HashMap<>();
+  private Map<String, Map<String, Integer>> graph = new HashMap<>();
 
     public void run() {
         Scanner scanner = new Scanner(System.in);
@@ -79,14 +84,14 @@ public class TextGraph {
 
     //读文件
     public void readFile(String filePath) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader(filePath));
-        String line;
         StringBuilder content = new StringBuilder();
 
+         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
+        String line;
         while ((line = br.readLine()) != null) {
             content.append(line.replaceAll("[^A-Za-z]", " ").toLowerCase()).append(" ");
         }
-        br.close();
+        } // br will be automatically closed here
 
         String[] words = content.toString().split("\\s+");
         for (int i = 0; i < words.length - 1; i++) {
@@ -99,6 +104,7 @@ public class TextGraph {
                 edges.put(word2, edges.getOrDefault(word2, 0) + 1);
             }
         }
+
     }
 
     //展示有向图，终端打印
@@ -134,6 +140,7 @@ public class TextGraph {
         }
 
     }
+
     //查询桥接词
     private String queryBridgeWords(String word1, String word2) {
 
@@ -161,7 +168,6 @@ public class TextGraph {
                     result.append(", ");
                 }
             }
-            System.out.println("无效的选择，请重试。");
             result.append(".");
             return result.toString();
         }
